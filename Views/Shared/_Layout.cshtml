@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GonjoyWebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GonjoyWebApp.styles.css" asp-append-version="true" />
+    <link href="~/css/general.css" rel="stylesheet" />
+    <link href="~/css/reset.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="~/image/header/logo_link.png" style="width:162px"/>
+                </a>
+            </div>
+
+            <div class="search-bar-container" id="search-box">
+                <img src="~/image/header/search_46px.png" />
+                <div class="input-container searchbox-container">
+                    <input class="fw-5" type="text" name="search-header" id="search-input"
+                        placeholder="Search your favorite destination">
+                </div>
+            </div>
+
+            <div class=" menu">
+                <ul class="main-menu">
+                    <li class="main-menu-item">
+                        <a href="index.html" class="fw-5">HOME</a>
+                    </li>
+
+                    <li class="main-menu-item main-menu-item--have-sub">
+                        <a href="destination.html" class="fw-5">
+                            DESTINATION
+                        </a>
+                        <ul class="sub-menu sub-menu--destionations">
+                            <li><a href="destination_curacao.html">Curacao</a></li>
+                            <li><a href="destination_guadeloupe.html">Guadelope</a></li>
+                            <li><a href="destination_jamaica.html">Jamaica</a></li>
+                            <li><a href="destination_nhatrang.html">Nha Trang</a></li>
+                            <li><a href="destination_london.html">London</a></li>
+                            <li><a href="destination_losangeles.html">Los Angeles</a></li>
+                            <li><a href="destination_banahill.html">Ba Na Hill</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="main-menu-item">
+                        <a href="review.html" class="fw-5">REVIEW</a>
+                    </li>
+                    <li class="main-menu-item ">
+                        <a href="aboutUs.html" class="fw-5">ABOUT US</a>
+                    </li>
+                    <li class="main-menu-item main-menu-item--have-sub">
+                        <a href="" class="fw-5">ACCOUNT</a>
+
+                        <ul class="sub-menu">
+                            <li id="signin-option"><a href="sigin.html">SIGN IN</a></li>
+                            <li id="signup-option"><a href="signup.html">SIGN UP</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <main role="main" class="">
+                @RenderBody()
+        </main>
+
+
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-about-us-vs-receive-tour footer-item">
+                    <div class="footer-item__about-us">
+                        <h3 class="footer-item__header">
+                            About Us
+                        </h3>
+                        GONJOY, Inc. is an American online travel company that operates a website and mobile app with
+                        user-generated content and a comparison shopping website. It also offers online hotel
+                        reservations
+                        and bookings for transportation, lodging, travel experiences, and restaurants
+
+                        <p><a href="aboutUs.html">Click here for more information</a></p>
+                    </div>
+
+                    <div class="footer-item__receive-tour">
+                        <h3 class="footer-item__header">
+                            Receive Excellent Tour
+                        </h3>
+
+                        <div class="form-receive">
+                            <div class="send-email">
+                                <input type="email" name="receive-tour-email" id="receive-tour-email"
+                                    placeholder="Enter your e-mail here">
+                                <a href="">
+                                    <img src="~/image/footer/footer__email.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-contact footer-item">
+                    <h3 class="footer-item__header">Contact Us</h3>
+
+                    <div class="footer-contact__phone">
+                        <p> 
+                            <img src="~/image/footer/footer__phone.png" />
+                            +84 123456789
+                    </p>
+                    </div>
+
+                    <div class="footer-contact__email">
+                        <p><img src="~/image/footer/footer__envelope.png" />info@gmail.com</p>
+                    </div>
+
+
+                    <h3 class="footer-item__header">Social Networks</h3>
+                    <div class="footer-contact__social-media">
+                        <a href="">
+                            <img src="~/image/footer/footer__facebook-icon.png" class="social-media-icon" />
+                        </a>
+                        <a href="">
+                            <img src="~/image/footer/footer__instagram-icon.png" class="social-media-icon" />
+                        </a>
+                        <a href="">
+                            <img src="~/image/footer/footer__linkedin-icon.png" class="social-media-icon" />
+                        </a>
+                        <a href="">
+                            <img src="~/image/footer/footer__twitter-icon.png" class="social-media-icon" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-top-tour-img footer-item">
+                    <h3 class="footer-item__header">Top Tours</h3>
+
+                    <div class="footer-top-tour-img__img-container">
+                        <div class="footer-top-tour-img__img-container-row">
+                            <a href=""><img src="~/image/footer/dubai_explore-tour.png" class="tour-image" /></a>
+                            <a href=""><img src="~/image/footer/vietnam_explore-tour.jpg" class="tour-image" /></a>
+                        </div>
+
+                        <div class="footer-top-tour-img__img-container-row">
+                            <a href="">
+                                <img src="~/image/footer/france_explore-tour.jpg" class="tour-image"/>
+                            </a>
+
+                            <a href="">
+                                <img src="~/image/footer/norway_explore-tour.jpg" class="tour-image"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border-width: 2px; color: #ccc">
+
+            <div class="copy-right">
+                © 2022 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">Hoa - Phat - Nhat</a>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

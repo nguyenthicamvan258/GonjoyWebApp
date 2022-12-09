@@ -1,0 +1,254 @@
+
+  .bannercontainer__destinationdetail
+  {
+      position: relative;
+      color: white;
+        
+      width: 100%;
+      height: 370px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .topbanner__destinationdetail
+  {
+    width: 100%;
+    height: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(70%);
+  }
+
+
+  .title__destinationdetail
+  {
+    position: absolute;
+    bottom: 40px;
+    padding:10px;
+    left: 150px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 70px;
+  }
+
+  .title__destination--subdetail
+  {
+    position: absolute;
+    bottom: 1px;
+    padding:10px;
+    left: 160px;
+    font-weight: 100;
+    font-size: 14px;
+  }
+
+  .middle__destinationdetail
+  {
+    height: 5300px;
+    width: 100%;
+    background-color: #F7F7F7;
+    padding:10px;
+  }
+
+  .destination__itemdetail
+  { 
+    width: 1200px;
+    height: 4000px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  .image__destinationitemcustom
+  {
+    padding: 10px;
+    width: 270px;
+    height: 270px;
+    border-radius: 5px;
+    float: left;
+  }
+
+
+
+  .image__sight
+  { 
+    display: block;
+    width: 90%;
+    height: 690px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  .title__contentdest
+  {
+    font-weight: 100;
+    padding:10px;
+    font-size: 43px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .item__contentdest
+  {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding:10px;
+  }
+
+  .linecontent__dest
+  {
+  
+    margin-left: 20px;
+    height: 1px;
+  }
+
+  .title__recommendtours
+  {
+    font-weight: 300;
+    padding:10px;
+    font-size: 55px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .contain__recommendtour
+  {
+    margin-top: 40px;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    height: 240px;
+    margin-left: 30px;
+    box-shadow: 1px 1px 5px rgb(158, 155, 155);
+    border-radius: 5px;
+  }
+
+  .image__reccomendtours
+  {
+    
+    width: 280px;
+    height:180px;
+    border-radius: 5px;
+    padding: 2px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title__imagercmndtours
+  {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 90px;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 300;
+    text-shadow: 1px 2px rgb(0, 0, 0)  ;
+  }
+
+  .left__direction
+  {
+      float: left;
+      padding: 10px;
+      margin-left: 70px;
+      margin-top: 30px;
+  }
+
+  .right__direction
+  {   
+      float: right;
+      padding: 10px;
+      margin-right: 70px;
+      margin-top: 30px;
+  }
+
+  .tablereviewform
+  {
+    margin-left: 150px;
+    margin-top: 35px;
+    width: 80%;
+    height: 500px;
+    padding:10px;
+  }
+
+  .button__addreview
+  {
+    margin-bottom: 60px;
+    color:white;
+    background-color: #24C358;
+    cursor: pointer;
+
+    width:150px;
+    height: 50px;
+
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button__addreview:hover
+  {
+    background-color: #007ACC;
+    transition:0.5;
+  }
+
+  .textinput__comment
+  {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(160, 160, 160);
+  }
+
+a:link.link__destination--bluenoline
+{
+  color:#007ACC;
+  text-decoration: none;
+} 
+
+a:hover.link__destination--bluenoline
+{
+  color:#007ACC;
+  text-decoration: underline;
+}
+
+
+
+.pricebannerdetail--leftgreen
+{
+  width: 100px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #24C358;
+  color: white;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: large;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map__embedded--resize
+{
+  margin-left: 20px;
+  padding:10px;width: 1100px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   height: 600px;
+}
+

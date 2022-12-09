@@ -1,0 +1,140 @@
+@font-face {
+    font-family: title;
+    src: url(/style/fonts/PatrickHand-Regular.ttf);
+}
+
+.header {
+    background: none !important;
+}
+
+.sub-menu {
+    background: none !important;
+    outline: none;
+    border: none;
+}
+
+.content {
+    padding-top: var(--header-height);
+    background-image: url('../../images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0 !important;
+}
+
+.sign-up-container {
+    width: 66%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title a {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: -3px 4px 13px #000;
+    text-decoration: none;
+}
+
+.title:hover a {
+    color: coral;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+.form-container {
+    /* padding-top: 50px; */
+    background-color: rgba(163, 159, 159, 0.9);
+    padding: 40px 60px;
+    border-radius: 10px;
+}
+
+.input-field {
+    margin: 15px 0;
+}
+
+.input-field input[type='text'],
+.input-field input[type='number'],
+.input-field input[type='password'] {
+    height: 40px;
+    border-radius: 2px;
+    border-color: #fff;
+    padding-left: 8px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid;
+    border-color: transparent transparent black transparent;
+    background-color: transparent;
+}
+
+.input-field label {
+    font-weight: 600;
+}
+
+.full-name {
+    margin-bottom: 0 !important;
+}
+
+.full-name__item {
+    margin-bottom: 15px;
+}
+
+.gender {
+    padding-left: 10px;
+}
+
+.gender p {
+    font-weight: 600;
+    padding-left: 0 !important;
+    margin-bottom: 6px !important;
+}
+
+.gender .form-check {
+    padding-right: 40px;
+}
+
+.dob {
+    padding-bottom: 8px;
+    margin-bottom: 6px;
+}
+
+.dob-item {
+    padding-right: 40px;
+}
+
+.dob-item label {
+    padding-right: 8px;
+}
+
+.dob-item>input {
+    width: 80px;
+}
+
+.btn {
+    width: 100%;
+    margin: 0 auto;
+}
+
+input[type='submit'] {
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #5995fd;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .5s;
+}
+
+label {
+    color: #fff;
+}

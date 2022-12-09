@@ -1,0 +1,505 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link href="~/css/index.css" rel="stylesheet" />
+
+<div id="carouselExampleControls" class="carousel slide slider" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/image/index/slider__vietnam.jpg" class="d-block" alt="First slide"/>
+            <div class="rating-container">
+                <p class="rating-score">4.9</p>
+                <img src="~/css/index/slider__star.png" />
+            </div>
+            <!-- SLIDER TOUR DESCRIPTION -->
+            <div class="slider-detail">
+                <h1 class="place-name">VIETNAM</h1>
+                <p class="place-description">Phong cảnh hữu tình, Vẻ đẹp nên thơ</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/image/index/slider__france.jpg" class="d-block" alt="Second slide"/>
+            <div class="rating-container">
+                <p class="rating-score">4.7</p>
+            </div>
+            <!-- SLIDER TOUR DESCRIPTION -->
+            <div class="slider-detail">
+                <h1 class="place-name">FRANCE</h1>
+                <p class="place-description">Paysages charmants, Beauté poétique</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="~/image/index/slider__norway.jpg" class="d-block" alt="Third slide"/>
+            <div class="rating-container">
+                <p class="rating-score">4.8</p>
+                <img src="~/css/index/slider__star.png" />
+            </div>
+            <!-- SLIDER TOUR DESCRIPTION -->
+            <div class="slider-detail">
+                <h1 class="place-name">NORWAY</h1>
+                <p class="place-description">Sjarmerende natur, poetisk skjønnhet</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/image/index/slider__hungary.jpg" class="d-block" alt="Fourth slide"/>
+            <div class="rating-container">
+                <p class="rating-score">4.6</p>
+                <img src="~/css/index/slider__star.png" />
+            </div>
+            <!-- SLIDER TOUR DESCRIPTION -->
+            <div class="slider-detail">
+                <h1 class="place-name">HUNGARY</h1>
+                <p class="place-description">Bájos táj, költői szépség</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/image/index/slider__dubai.png" class="d-block" alt="Fifth slide"/>
+            <div class="rating-container">
+                <p class="rating-score">5</p>
+                <img src="~/css/index/slider__star.png" />
+            </div>
+            <!-- SLIDER TOUR DESCRIPTION -->
+            <div class="slider-detail">
+                <h1 class="place-name">DUBAI</h1>
+                <p class="place-description">مشهد ساحر ، جمال شعري</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="content-item">
+    <div class="suggest-where-to-go">
+        <h1 class="content__header--lighter">INTRODUCE SOME NEW DESTINATIONS</h1>
+
+        <h3 class="content__header--sub">
+            A few tourist attractions have seen a significant increase in the number of good reviews
+            recently and are expected to attract more tourists in the future.
+        </h3>
+
+
+        <div class="destinationcontain">
+            <a href="destination.html" class="button__dest-darkbg">
+                <div class="destinationcontain__item">
+                    <img src="~/image/index/newdes__mexico.jpg" />
+                    <div class="detail">
+                        <i class="fas fa-camera" style="font-size: 25px;"></i>
+                        <p>
+                            <a href="destination.html" class="link__destination--whitenoline">
+                                Destination
+                            </a>
+                        </p>
+                        <p class="dest-name">Olbox island, MEXICO</p>
+                    </div>
+                </div>
+
+                <div class="destinationcontain__item">
+                    <a href="destination.html" class="button__dest-darkbg">
+                        <img src="~/image/index/newdes__brazil.jpg" />
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt" style="font-size: 25px;"></i>
+                            <p>
+                                <a href="destination.html" class="link__destination--whitenoline">
+                                    Destination
+                                </a>
+                            </p>
+                            <p class="dest-name">Fernando de Noronha, BRAZIL</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="destinationcontain__item">
+                    <a href="destination.html" class="button__dest-darkbg">
+                        <img src="~/image/index/newdes__vietnam.jpg" />
+                        <div class="detail">
+                            <i class="far fa-compass" style="font-size: 25px;"></i>
+                            <p>
+                                <a href="destination.html" class="link__destination--whitenoline">
+                                    Destination
+                                </a>
+                            </p>
+                            <p class="dest-name">Mu Cang Chai, VIETNAM</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="destinationcontain__item">
+                    <a href="destination.html" class="button__dest-darkbg">
+                        <img src="~/image/index/newdes__greece.jpg" />
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt" style="font-size: 25px"></i>
+                            <p>
+                                <a href="destination.html" class="link__destination--whitenoline">
+                                    Destination
+                                </a>
+                            </p>
+                            <p class="dest-name">Oia, Santorini, GREECE</p>
+                        </div>
+                    </a>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="content__touritem">
+    <div class="best-tour">
+
+        <h1 class="content__header--lighterwhite">BEST TOUR OF MONTH</h1>
+        <h3 class="content__header--sub-white">
+            The best and most popular tours according to customer rankings (Update every month)
+        </h3>
+
+        <!--Slider TOUR-->
+        <div class="list-best-tour">
+                        <div class="list-best-tour__item">
+                            <p class="pricebanner--green">395$</p>
+                            <a href="destination_curacao.html">
+                                <img src="~/image/index/besttour__bigbuilding.png" class="image__tourcustom">
+                            </a>
+
+                            <div class="middletour">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem sequi,
+                                    debitis dolorum
+                                    in nulla quaerat, esse ipsam eaque est amet aliquid excepturi velit sit.
+                                </p>
+                            </div>
+
+                            <div class="tour-detail">
+                                <p class="tour-detail__date">8 DAYS</p>
+                                <p class="tour-detail__capability">3-4 PERSONS</p>
+                                <p class="tour-detail__rating">RATING: 5/5 &#11088</p>
+                            </div>
+                        </div>
+
+                        <div class="list-best-tour__item">
+                            <p class="pricebanner--green">174$</p>
+                            <a href="destination_guadeloupe.html">
+                                <img src="~/image/index/besttour__duthuyen.png" class="image__tourcustom">
+                            </a>
+
+                            <div class="middletour">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem sequi,
+                                    debitis dolorum
+                                    in nulla quaerat, esse ipsam eaque est amet aliquid excepturi velit sit.
+                                </p>
+                            </div>
+
+                            <div class="tour-detail">
+                                <p class="tour-detail__date">2 DAYS</p>
+                                <p class="tour-detail__capability">1-2 PERSONS</p>
+                                <p class="tour-detail__rating">RATING: 4.5/5 &#11088</p>
+                            </div>
+                        </div>
+
+                        <div class="list-best-tour__item">
+                            <p class="pricebanner--green">23$</p>
+                            <a href="destination_london.html">
+                                <img src="~/image/index/besttour__camping.jpg" class="image__tourcustom">
+
+                            </a>
+                            <div class="middletour">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem sequi,
+                                    debitis dolorum
+                                    in nulla quaerat, esse ipsam eaque est amet aliquid excepturi velit sit.
+                                </p>
+                            </div>
+
+                            <div class="tour-detail">
+                                <p class="tour-detail__date">5 HOURS</p>
+                                <p class="tour-detail__capability">1-2 PERSONS</p>
+                                <p class="tour-detail__rating">RATING: 4.5/5 &#11088</p>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+</div>
+
+<div class="travellingexperience__container">
+    <div class="suggest-where-to-go">
+        <h1 class="content__header--lighter">
+            TRAVEL ACTIVITIES EXPERIENCE
+        </h1>
+
+        <h3 class="content__header--lighter">
+            Every trip, every experience
+        </h3>
+
+        <div class="experience-list">
+            <div class="experience-list-row">
+
+                <div class="experience-item">
+                    <a href="activities.html" class="button__dest-darkbg">
+                        <p class="tittle__experience">
+                            <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
+                            Diving
+                        </p>
+                        <img src="~/image/index/travelex__diving.jpg" class="image__experience"/>
+                    </a>
+                </div>
+
+                <div class="experience-item">
+                    <a href="activities.html" class="button__dest-darkbg">
+                        <p class="tittle__experience">
+                            <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
+                            White sands
+                        </p>
+                        <img src="style/images/whitesand.png" class="image__experience">
+                    </a>
+                </div>
+
+                <div class="experience-item">
+                    <a href="activities.html" class="button__dest-darkbg">
+                        <p class="tittle__experience">
+                            <i class="far fa-compass" class="icon__experiencecustom--leftbottom"></i>
+                            Family fun
+                        </p>
+                        <img src="style/images/familyfun.jpg" class="image__experience">
+                    </a>
+                </div>
+
+                <div class="experience-item">
+                    <a href="activities.html" class="button__dest-darkbg">
+                        <p class="tittle__experience">
+                            <i class="fas fa-map-marker-alt" class="icon__experiencecustom--leftbottom"></i>
+                            Old colonial towns
+                        </p>
+                        <img src="style/images/oldcolonel.jpg" class="image__experience">
+                    </a>
+                </div>
+            </div>
+
+            <div class="experience-list-row">
+                <div class="experience-item">
+                    <a href="activities.html" class="button__dest-darkbg">
+                        <p class="tittle__experience">
+                            <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
+                            Romantic getaway
+                        </p>
+                        <img src="style/images/romanticgetaways.jpg" class="image__experience">
+                    </a>
+                </div>
+
+                <div class="experience-item">
+                    <a href="activities.html" class="button__dest-darkbg">
+                        <p class="tittle__experience">
+                            <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
+                            Snorkeling
+                        </p>
+                        <img src="style/images/snorkeling.png" class="image__experience">
+                    </a>
+                </div>
+
+                <div class="experience-item">
+                    <a href="activities.html" class="button__dest-darkbg">
+                        <p class="tittle__experience">
+                            <i class="far fa-compass" class="icon__experiencecustom--leftbottom"></i>
+                            Beautiful scenery
+                        </p>
+                        <img src="style/images/beautifulscenery.jpg" class="image__experience">
+                    </a>
+                </div>
+
+                <div class="experience-item">
+                    <a href="activities.html" class="button__dest-darkbg">
+                        <p class="tittle__experience">
+                            <i class="fas fa-map-marker-alt" class="icon__experiencecustom--leftbottom"></i>
+                            Out door adventure
+                        </p>
+                        <img src="style/images/outdooractivities.jpg" class="image__experience">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="promotionoffer__container">
+    <div class="suggest-where-to-go">
+        <table class="table__promotion">
+            <tr>
+                <td colspan="2">
+                    <h2 class="content__header--lighterwhite">
+                        HOT PROMOTION
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h1 class="content__header--boldwhite">
+                        Nha Trang Beach, Viet Nam
+                    </h1>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <h4 class="content__header--lighterwhite">
+                        1700$ / 2 PERSONS/ 10 NIGHTS
+                    </h4>
+                </td>
+            </tr>
+            <tr width="10%">
+                <td>
+                    <p class="button__register--green">
+                        <a href="https://www.booking.com">
+                            BOOKING NOW!
+                        </a>
+                    </p>
+                </td>
+                <td width="90%">
+                    <p class="button__register--blue">
+                        <a href="">
+                            MORE INFORMATION
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!--Onclick read more to change pages (effect using JS) in p tag-->
+<div class="news__container">
+    <div class="suggest-where-to-go">
+        <h1 class="content__header--lighter">
+            ADVICES FROM EXPERT
+        </h1>
+        <h3 class="content__header--lighter">Prepare carefully for every trip</h3>
+        <table class="table__inspiration--shadow">
+            <tr>
+                <td>
+                    <img src="./image/index/inspire_01.jpg" class="image__inspirecustom" />
+                </td>
+                <td class="col__inspirecustom">
+                    <h4 class="paragraph--leftlight">
+                        Packing up for the Sunny paradise
+                    </h4>
+
+                    <p class="paragraph--leftgray">
+                        Whether you're hiking a forest trail or whale watching, local insight you'll get
+                        from a guide will...
+                    </p>
+
+                    <p class="paragraph__readmore">
+                        <a href="">READ MORE</a>
+                    </p>
+                </td>
+                <td>
+                    <img src="./image/index/inspire_02.jpg" class="image__inspirecustom" />
+                </td>
+                <td class="col__inspirecustom">
+                    <h4 class="paragraph--leftlight">
+                        Costa Rica, Your Island Escape
+                    </h4>
+
+                    <p class="paragraph--leftgray">
+                        Whether you're hiking a forest trail or whale watching, local insight you'll get
+                        from a guide will...
+                    </p>
+
+                    <p class="paragraph__readmore">
+                        <a href="">READ MORE</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="col__inspirecustom">
+                    <h4 class="paragraph--leftlight">
+                        Enchanted Caribbean Journey
+                    </h4>
+
+                    <p class="paragraph--leftgray">
+                        Whether you're hiking a forest trail or whale watching, local insight you'll get
+                        from a guide will...
+                    </p>
+
+                    <p class="paragraph__readmore">
+                        <a href="">READ MORE</a>
+                    </p>
+                </td>
+                <td>
+                    <img src="style/images/inspire_03.jpg" class="image__inspirecustom">
+                </td>
+                <td class="col__inspirecustom">
+                    <h4 class="paragraph--leftlight">
+                        Destination: Full Relaxation
+                    </h4>
+
+                    <p class="paragraph--leftgray">
+                        Whether you're hiking a forest trail or whale watching, local insight you'll get
+                        from a guide will...
+                    </p>
+
+                    <p class="paragraph__readmore">
+                        <a href="" class="link">READ MORE</a>
+                    </p>
+                </td>
+                <td>
+                    <img src="style/images/inspire_04.jpg" class="image__inspirecustom">
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+<div class="content-services">
+    <h3>OUR VALUED SERVICES</h3>
+    <div class="content--services-info">
+        <!--Interesting travel-->
+        <div class="card--services">
+            <img src="./style/images/worldwide-travel-icon.png">
+            <h4>New explore</h4>
+            <p>Give some opportunities to travel to secluded area for diverse and abundant view</p>
+        </div>
+
+        <!--Convenient transport-->
+        <div class="card--services">
+            <img class="fixed-img" src="./style/images/transport-vehicle-icon.png">
+            <h4>Convinient vehicles</h4>
+            <p>Can travel to anywhere all over the world without obstacle</p>
+        </div>
+
+        <!--Acknowledge from trip-->
+        <div class="card--services">
+            <img src="./style/images/cultures-icon.png">
+            <h4>Interesting knowledge</h4>
+            <p>Open your mind with rare knowledge from your amazing discovery</p>
+        </div>
+
+        <!--Acknowledge from trip-->
+        <div class="card--services">
+            <img src="./style/images/cash-icon.png">
+            <h4>Discount trip</h4>
+            <p>Lower your money consumption with excellent guides from amazing viewers</p>
+        </div>
+
+        <!--Saving times-->
+        <div class="card--services">
+            <img src="./style/images/time-icon.png">
+            <h4>Effective time</h4>
+            <p>More free time to satisfy your discovery</p>
+        </div>
+
+        <!--Enthusiastic service-->
+        <div class="card--services">
+            <img src="./style/images/enthusiastic-service-icon.png">
+            <h4>Enthusiastic service</h4>
+            <p>Make you feel safely and keep you in the best condition possible in any situation</p>
+        </div>
+
+    </div>
+</div>

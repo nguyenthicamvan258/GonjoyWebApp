@@ -1,0 +1,269 @@
+.content {
+    margin-top: var(--header-height);
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.about-us-navbar {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 46px;
+    height: 45px;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: var(--header-height);
+}
+
+.about-us-navbar h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 45px;
+}
+
+.about-us-navbar a:hover {
+    color: rgb(15, 82, 237);
+}
+
+.about-us-navbar .list-content {
+    display: flex;
+}
+
+.list-content a {
+    text-decoration: none;
+    padding: 6px 14px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #666;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.introduction {
+    height: 85vh;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 160px 0;
+}
+
+.introduction__content {
+    width: 50%;
+    margin: 0 16px;
+    padding-right: 60px;
+}
+
+.introduction__content--text h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.introduction__content--text p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.introduction__img {
+    width: 50%;
+    display: flex;
+    padding-left: 25px;
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+.introduction__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* BEGIN: section TIMELINE */
+#timeline {
+    display: flex;
+    background-color: #031625;
+}
+
+#timeline:hover .tl-item {
+    width: 23%;
+}
+
+.tl-item {
+    transform: translate3d(0, 0, 0);
+    position: relative;
+    width: 25%;
+    color: #fff;
+    overflow: hidden;
+    transition: width 0.5s ease;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.tl-item:before,
+.tl-item:after {
+    transform: translate3d(0, 0, 0);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tl-item:hover {
+    width: 30% !important;
+}
+
+.tl-item:hover .tl-item::after {
+    opacity: 0;
+}
+
+.tl-item:hover .tl-item::before {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) translateY(0);
+    transition: opacity 1s ease, transform 1s ease 0.25s;
+}
+
+.tl-item:hover .tl-content {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.75s ease 0.5s;
+}
+
+.tl-item:hover .tl-bg {
+    filter: grayscale(0);
+}
+
+.tl-item:after {
+    background: transparentize(#031625, 0.15);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.tl-item:before {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 75%);
+    z-index: 1;
+    opacity: 0;
+    transform: translate3d(0, 0, 0) translateY(50%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+.tl-content {
+    transform: translate3d(0, 0, 0) translateY(25px);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 0 1.618em;
+    top: 55%;
+    opacity: 0;
+}
+
+.tl-content h1 {
+    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial,
+        sans-serif;
+    text-transform: uppercase;
+    color: #1779cf;
+    font-size: 1.44rem;
+    font-weight: normal;
+}
+
+.tl-year {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.tl-year p {
+    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial,
+        sans-serif;
+    font-size: 1.728rem;
+    /* line-height: 0; */
+}
+
+.tl-bg {
+    transform: translate3d(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
+/* SECTION: OUR TEAM */
+#ourteam {
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title .sub-title {
+    text-align: center;
+    padding: 12px 230px;
+}
+
+.ot-container {
+    width: 80%;
+    display: flex;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.ot-item {
+    width: 33%;
+    cursor: pointer;
+
+    margin: 36px;
+    padding: 20px 24px;
+}
+
+.ot-item:hover {
+    box-shadow: 2px 2px 15px #ccc;
+}
+
+.ot-item img {
+    width: 280px;
+    height: 280px;
+    border-radius: 30px;
+}
+
+.ot-item .ot__member {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.ot-item .ot__position {
+    color: #666;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(0, 119, 204);
+}
