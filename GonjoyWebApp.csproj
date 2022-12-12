@@ -26,6 +26,7 @@
 
 	<ItemGroup>
 		<Folder Include="wwwroot\image\header\" />
+		<Folder Include="wwwroot\image\Aboutus\" />
 	</ItemGroup>
 
 </Project>
